@@ -1,0 +1,6 @@
+_target_: src.models.restoration_model.RestorationLitModel
+
+model_name: 'MIMOUNetFFT'
+lr: 0.001
+weight_decay: 0.0005
+loss_name: 'fft'

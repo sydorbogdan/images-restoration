@@ -1,0 +1,9 @@
+_target_: src.datamodules.restoration_datamodule.RestorationDataModule
+
+data_dir: ${data_dir} # data_dir is specified in config.yaml
+batch_size: 32
+train_val_test_split: [1000, 30, 100]
+num_workers: 0
+pin_memory: False
+shape: [128, 128]
+corruption_type: "GAUSSIAN_NOISE"
