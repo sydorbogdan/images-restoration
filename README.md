@@ -1,2 +1,2 @@
 # images-restoration
-Check "AI report.pdf" for details
+Check "AI Project.pdf" for details
